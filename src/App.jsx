@@ -28,7 +28,7 @@ function App() {
   };
   return (
     <BrowserRouter>
-    {/* <Headers/> */}
+    <Headers/>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/search/:query" element={<SearchResult/>}/>
