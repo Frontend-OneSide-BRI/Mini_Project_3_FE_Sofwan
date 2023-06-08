@@ -34,7 +34,7 @@ function App() {
       <Route path="/search/:query" element={<SearchResult/>}/>
       <Route path="*" element={<Page404/>}/>
     </Routes>
-    {/* <Footers/> */}
+    <Footers/>
     </BrowserRouter>
   )
 }
