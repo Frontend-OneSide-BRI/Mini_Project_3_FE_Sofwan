@@ -15,7 +15,6 @@ BRI Movie adalah aplikasi web untuk menemukan dan menonton film-film terbaru. De
 - Film Terbaru: Temukan film-film terbaru.
 - Film Populer: Lihat daftar film populer.
 - Film Favorit: Tambahkan film ke daftar favorit Anda.
-- Pemutaran Trailer: Tonton trailer film langsung di aplikasi.
 
 ## Demo
 
@@ -27,3 +26,17 @@ Anda dapat mengunjungi [https://brimovie.vercel.app/](https://brimovie.vercel.ap
 
    ```bash
    git clone https://github.com/your-username/bri-movie.git
+ 
+2. Masuk ke direktori aplikasi:
+
+   cd bri-movie
+
+3. Install dependensi:
+
+   npm install
+
+4. Jalankan aplikasi:
+
+   npm start
+
+5. Aplikasi akan berjalan di http://localhost:3000.
