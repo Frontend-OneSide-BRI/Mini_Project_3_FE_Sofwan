@@ -12,6 +12,7 @@ import Img from "../../organisms/lazyLoadImage/Img";
 import PosterFallback from "../../../assets/no-poster.png"
 import CircleRating from "../../atoms/icons/CircleRating";
 import "./style.scss";
+import Genres from "../../atoms/genres/Genres";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
     const carouselContainer = useRef();
@@ -81,6 +82,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                                 1
                                             )}
                                         />
+                                        <Genres data={item.genre_ids.slice(0, 2)}/>
                                     </div>
                                     <div className="textBlock">
                                         <span className="title">
