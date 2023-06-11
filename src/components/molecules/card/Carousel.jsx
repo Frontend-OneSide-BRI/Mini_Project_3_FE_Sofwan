@@ -10,7 +10,7 @@ import dayjs from "dayjs";
 import ContentWrapper from "../../organisms/contentWrapper/ContentWrapper";
 import Img from "../../organisms/lazyLoadImage/Img";
 import PosterFallback from "../../../assets/no-poster.png"
-
+import CircleRating from "../../atoms/icons/CircleRating";
 import "./style.scss";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
@@ -76,6 +76,11 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                 >
                                     <div className="posterBlock">
                                         <Img src={posterUrl} />
+                                        <CircleRating
+                                            rating={item.vote_average.toFixed(
+                                                1
+                                            )}
+                                        />
                                     </div>
                                     <div className="textBlock">
                                         <span className="title">
